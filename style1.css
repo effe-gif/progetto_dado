@@ -7,16 +7,35 @@
     font-style: normal;
 
 }
-@media (max-width: 768px) {
+@media (max-width: 468px) {
     body {
         display: flex;
         flex-direction: column;
         padding: 10px;
     }
+    .cardCalenzano{
+        display: flex;
+        flex-direction: column;
+        padding: 10px;
 
-
+    }
+    .cardCampi{
+        display: flex;
+        flex-direction: column;
+        padding: 10px;
+    }
+    .cardEmpoli{
+        display: flex;
+        flex-direction: column;
+        padding: 10px;
+    }
+    .cardFirenze{
+        display: flex;
+        flex-direction: column;
+        padding: 10px;
+    }
+    
 }
-
 
 body {
     height: 100vh;
@@ -54,6 +73,9 @@ h1 {
     margin-top: 6%;
     grid-gap: 1%; /* Distanza tra le card */
 }
+
+
+
 .cardCalenzano {
     border: solid  rgb(88, 138, 245), 1px;
     border-radius: 8px;
