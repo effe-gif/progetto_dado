@@ -1,0 +1,71 @@
+
+@font-face {
+    font-family: 'neon_absolute_sans_1regular';
+    src: url('neon_absolute_sans1-webfont.woff2') format('woff2'),
+         url('neon_absolute_sans1-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+@media (max-width: 768px) {
+    body {
+        display: flex;
+        flex-direction: column;
+        padding: 10px;
+    }
+
+}
+
+
+body {
+    height: 100vh;
+    background-color: black;
+    background-size: cover;
+    background-repeat: no-repeat;
+    image-rendering: auto;
+    align-items: center;
+    justify-content: center;
+}
+
+h1{
+    font-size: 8em;
+    font-family: 'neon_absolute_sans_1regular';
+    color: #0040ff;
+    text-align: center;
+    text-shadow:
+        0 0 5px #fff,
+        0 0 10px #fff,
+        0 0 15px #fff,
+        0 0 20px #00f,
+        0 0 30px #00f,
+        0 0 40px #00f,
+        0 0 55px #00f,
+        0 0 75px #00f;
+}
+
+.immagine {
+    display: flex;
+    image-rendering: auto;
+    align-content: center;
+    width: 250px;
+    height: 250px;
+    margin-left: 42%;
+}
+
+.listaeventi{
+    font-size: 4em;
+    font-family: 'neon_absolute_sans_1regular';
+    color: #0040ff;
+    text-align: left;
+    margin-left: 10%;
+    text-shadow:
+        0 0 5px #fff,
+        0 0 10px #fff,
+        0 0 15px #fff,
+        0 0 20px #00f,
+        0 0 30px #00f,
+        0 0 40px #00f,
+        0 0 55px #00f,
+        0 0 75px #00f;
+
+}
